@@ -11,6 +11,15 @@ let boldState = false;
 let italicState = false;
 let underlineState = false;
 
+const resetValues = document.getElementById("reset")
+
+resetValues.addEventListener (
+    "click",
+    () => {
+        location.reload();
+    }
+)
+
 buttons.forEach(btn => {
     btn.addEventListener('click', () => {
         if (btn.classList.contains('uppercase')) {
