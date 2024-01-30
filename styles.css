@@ -16,12 +16,14 @@ body
     background-color: #F3CCFF;
 }
 
-title
+.title
 {
     position: absolute;
     top: 10px;
     left: 10px;
     color: #624F82;
+    font-size: 3rem;
+    font-weight: bold;
 }
 
 span
@@ -70,7 +72,7 @@ p
     font-size: 2rem;
     margin-top: 2rem;
     padding: 10px;
-    height: 150px;
+    height: 100px;
     width: 100%;
     border: 1px solid #555;
     border-radius: 10px;
